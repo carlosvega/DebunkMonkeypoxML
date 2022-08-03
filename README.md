@@ -1,4 +1,4 @@
-# Review Monkeypox ML
+# Mini review of Monkeypox ML pre-print paper
 
 Quick replication of [arXiv:2206.01862v1](https://arxiv.org/abs/2206.01862) pre-print paper.
 
