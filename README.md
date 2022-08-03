@@ -101,3 +101,9 @@ A similar [repository](https://github.com/ieee8023/covid-chestxray-dataset) (tho
 
 
 ![precedent](./figs/precedent.png)
+
+
+# Versions of employed software
+
+- fastai 2.7.8
+- tensorflow 2.5.0
