@@ -32,6 +32,14 @@ We believe the authors did not assess whether the model was actually modelling t
 This review hypothesizes that the trained classifier is not learning to identify the diseases but rather, to separate the two sets of images. Therefore, it is not learning the phenomena or any feature regarding the diseases.
 To test this hypothesis, the dataset was "blinded" by adding rectangles over the regions of interest in the images, which are presumed to be the blisters, pustules and rash areas.
 
+## Versioning lock
+
+Just in case the versions of the paper and repository change or further versions are released, I note down here the versions this repository refers to.
+
+- The reviewed version of the dataset was [the following](https://github.com/mahsan2/Monkeypox-dataset-2022/tree/18145e9feee4993d2bab83430b583a3e981398e4). 
+- The version of the paper was [the following (2206.01862v1)](https://arxiv.org/abs/2206.01862v1). 
+- The version of the dataset abstract was [the following (2206.01774v1)](https://arxiv.org/abs/2206.01774v1). 
+
 # Methodological issues
 
 The pre-print presents a number of methodological issues.
