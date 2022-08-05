@@ -2,6 +2,10 @@
 
 Quick review of [arXiv:2206.01862v1](https://arxiv.org/abs/2206.01862) pre-print paper.
 
+<p align="right">
+  Also available at: <a href="https://carlosvega.github.io/DebunkMonkeypoxML/">https://carlosvega.github.io/DebunkMonkeypoxML/</a>
+</p>
+
 # Motivation
 
 During the COVID-19 pandemic, several researchers rushed to develop solutions for the diagnosis of COVID-19 by employing X-Ray images. 
