@@ -109,6 +109,9 @@ The images were "blinded" by adding rectangles over the regions of interest of t
 
 Given that this is a quick review, we employed FastAI v2, using a pre-trained VGG16 with batch normalization.
 
+- Jupyter Notebook for study one [can be found here](https://github.com/carlosvega/DebunkMonkeypoxML/blob/main/monkeypox-study-one.ipynb)
+- Jupyter Notebook for study two [can be found here](https://github.com/carlosvega/DebunkMonkeypoxML/blob/main/monkeypox-study-two.ipynb)
+
 ### Versions of employed software
 
 - fastai 2.7.8
