@@ -20,6 +20,8 @@ With the raise of cases of monkeypox, several researchers were afraid that the s
 One of the first publications available in Google Scholar and arXiv includes the paper reviewed in this repository. 
 Published in arXiv under the identifier [arXiv:2206.01862v1](https://arxiv.org/abs/2206.01862) in June 2022.
 
+![first paper example](./figs/first_paper.png)
+
 # Summary
 
 The pre-print paper published in arXiv aims to identify Monkeypox patients with an accuracy of ~97%. The motivation of the paper is clear. To diagnose monkeypox employing images. However, there are several concerns regarding whether the provided dataset and the ML solution help to achieve this goal. 
@@ -166,3 +168,20 @@ A similar [repository](https://github.com/ieee8023/covid-chestxray-dataset) crea
 The authors take the example of Dr Joseph Cohen and the Covid-19 image data collection. However, the authors do not mention the number of papers and literature criticizing the approach of Dr. Cohen (concerns included poor labeling, incoherence, bias, data acquisition variety, patient consent, etc.) and solutions developed with it. Dr Cohen included the following note in the repository: "please do not claim diagnostic performance of a model without a clinical study! This is not a Kaggle competition dataset." Additionally, Dr Cohen has dedicated several efforts to study the issues and avoiding the problems reported in the literature.
 
 Still, the project of Dr Cohen was approved by an ethics committee, unlike the repository presented by researchers from the University of Oklahoma. Dr Cohen also provided a [research protocol](https://docs.google.com/document/d/14b7cou98YhYcJ2jwOKznChtn5y6-mi9bgjeFv2DxOt0/edit) for the collection of the images, extracting images from publications or submissions from physicians and researchers. It would be advisable to have a similar protocol in potential datasets of monkeypox images.
+
+# Similar works
+
+A number of similar works can be found following the same approach. For instance, the BiorXiv preprint "[A Web-scraped Skin Image Database of Monkeypox, Chickenpox, Smallpox, Cowpox, and Measles](https://doi.org/10.1101/2022.08.01.502199)". In this case, one of the authors is affiliated with Boston Children's Hospital, Harvard Medical School. This made me wonder whether the diagnosis relevance of the images was validated by medical doctors?
+
+The authors published a Kaggle dataset. The dataset has been taken down after contacting the authors with further interest on the validity of their dataset. https://www.kaggle.com/datasets/arafathussain/monkeypox-skin-image-dataset-2022
+
+It is also odd to find that most of the cited examples (7 references out of 18) are from the second author. 
+
+Again, this paper shares similar issues such as:
+
+- Risk of developing biased solutions. 
+- The dataset shares data augmented images. Fortunately the information (filenames) enables making group-wise split to prevent this issue, but the paper should warn against these issues.
+- The images lack coherence regarding the point of view. Some of them are close up images from the skin, other include hands, mouths, faces etc. 
+- Last, the paper claims that "An ML or DL model, trained on our dataset, can help in the clinical diagnosis of Monkeypox.”. However, proofs on these regards for the given dataset are not provided. 
+
+![second paper example](./figs/second_paper.png)
