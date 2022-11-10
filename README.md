@@ -171,11 +171,13 @@ Still, the project of Dr Cohen was approved by an ethics committee, unlike the r
 
 # Similar works
 
-A number of similar works can be found following the same approach. For instance, the BiorXiv preprint "[A Web-scraped Skin Image Database of Monkeypox, Chickenpox, Smallpox, Cowpox, and Measles](https://doi.org/10.1101/2022.08.01.502199)". In this case, one of the authors is affiliated with Boston Children's Hospital, Harvard Medical School. This made me wonder whether the diagnosis relevance of the images was validated by medical doctors?
+A number of similar works can be found following the same approach. For instance, the BiorXiv preprint "[A Web-scraped Skin Image Database of Monkeypox, Chickenpox, Smallpox, Cowpox, and Measles](https://doi.org/10.1101/2022.08.01.502199)". In this case, one of the authors is affiliated with Boston Children's Hospital, Harvard Medical School. This made me wonder whether the diagnosis relevance of the images was validated by medical doctors? After further enquiries, this author clarified that he was personally helping some of the other authors and that they mistakenly included his affiliation on the pre-print manuscript without his consent.
 
 The authors published a Kaggle dataset. The dataset has been taken down after contacting the authors with further interest on the validity of their dataset. https://www.kaggle.com/datasets/arafathussain/monkeypox-skin-image-dataset-2022
 
 It is also odd to find that most of the cited examples (7 references out of 18) are from the second author. 
+
+## Issues
 
 Again, this paper shares similar issues such as:
 
