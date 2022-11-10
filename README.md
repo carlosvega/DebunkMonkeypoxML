@@ -99,7 +99,7 @@ Moreover, many reviews cite such paper as a poor example.
 
 ## Data augmentation
 
-The paper does not clarify whether the data augmentation was done in a way that prevents data leakage of augmented instances into the valid set. Often, data augmentation is just a middle step in the code, but the augmented images are not preserved or shared to avoid misuse of them. If done wrongly, data augmentation can lead to data leakage (e.g. if they are mixed across test and train sets). Reading the paper, I could not see how data was managed or split (e.g. group-wise split to prevent breaking the i.i.d assumption). This is also known as row-wise leakage. This is one of the reasons that motivated me to contact and see whether the code was available. I have not found it.
+The paper does not clarify whether the data augmentation was done in a way that prevents data leakage of augmented instances into the valid set. Often, data augmentation is just a middle step in the code, but the augmented images are not preserved or shared to avoid misuse of them. If done wrongly, data augmentation can lead to data leakage (e.g. if they are mixed across test and train sets). Reading the paper, I could not see how data was managed or split (e.g. group-wise split to prevent breaking the i.i.d assumption). This is also known as row-wise leakage. This is one of the reasons that motivated me to contact and see whether the code was available. I have not found it and the authors did not provide it.
 
 ## Class imbalance
 
