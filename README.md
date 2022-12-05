@@ -101,7 +101,7 @@ Moreover, many reviews cite such paper as a poor example.
 
 ## Data augmentation
 
-The paper does not clarify whether the data augmentation was done in a way that prevents data leakage of augmented instances into the valid set. Often, data augmentation is just a middle step in the code, but the augmented images are not preserved or shared to avoid misuse of them. If done wrongly, data augmentation can lead to data leakage (e.g. if they are mixed across test and train sets). Reading the paper, I could not see how data was managed or split (e.g. group-wise split to prevent breaking the i.i.d assumption). This is also known as row-wise leakage. This is one of the reasons that motivated me to contact and see whether the code was available. I have not found it and the authors did not provide it.
+The paper does not clarify whether the data augmentation was done in a way that prevents data leakage of augmented instances into the valid set. Often, data augmentation is just a middle step in the code, but the augmented images are not preserved or shared to avoid misuse of them. If done wrongly, data augmentation can lead to data leakage (e.g. if they are mixed across test and train sets). Reading the paper, I could not see how data was managed or split (e.g. group-wise split to prevent breaking the i.i.d assumption). This is also known as row-wise leakage. This is one of the reasons that motivated me to contact the authors and see whether the code was available. I have not found it and the authors did not provide it.
 
 ## Class imbalance
 
@@ -145,7 +145,6 @@ The resulting model can classify the elements between the two folders in both "s
 
 - The fact that there is no public monkeypox dataset does not excuse using poor images. A study of proper data acquisition workflow must be conducted to acquire and verify monkeypox, measles and chickenpox images in humans. The images lack any coherence or curation. A bad dataset may be worse than no dataset. If data is not available, this does not excuse building a bad dataset. The shared dataset lacks medical relevance, which was disappointing given the goals stated in the article.
 
-
 - Images tagged in stock image repositories are not necessarily medically validated. They can show similar pathologies but without actually corresponding to real cases.
 
 - There are medical datasets of chickenpox images and other diseases, why was the same approach followed with other diseases?
@@ -175,7 +174,7 @@ Still, the project of Dr Cohen was approved by an ethics committee, unlike the r
 
 A number of similar works can be found following the same approach. For instance, the BiorXiv preprint "[A Web-scraped Skin Image Database of Monkeypox, Chickenpox, Smallpox, Cowpox, and Measles](https://doi.org/10.1101/2022.08.01.502199)". In this case, one of the authors is affiliated with Boston Children's Hospital, Harvard Medical School. This made me wonder whether the diagnosis relevance of the images was validated by medical doctors? After further enquiries, this author clarified that he was personally helping some of the other authors and that they mistakenly included his affiliation on the pre-print manuscript without his consent.
 
-The authors published a Kaggle dataset. The dataset has been taken down after contacting the authors with further interest on the validity of their dataset. https://www.kaggle.com/datasets/arafathussain/monkeypox-skin-image-dataset-2022
+The authors published a Kaggle dataset. The dataset was taken down after contacting the authors with further interest on the validity of their dataset. https://www.kaggle.com/datasets/arafathussain/monkeypox-skin-image-dataset-2022
 
 It is also odd to find that most of the cited examples (7 references out of 18) are from the second author. 
 
