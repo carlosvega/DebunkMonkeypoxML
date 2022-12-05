@@ -1,4 +1,4 @@
-# Mini review of Monkeypox ML pre-print paper
+# Review of Monkeypox Machine Learning datasets and papers
 
 Quick review of [arXiv:2206.01862v1](https://arxiv.org/abs/2206.01862) pre-print paper.
 
