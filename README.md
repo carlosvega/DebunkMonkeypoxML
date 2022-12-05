@@ -1,6 +1,6 @@
 # Review of Monkeypox Machine Learning datasets and papers
 
-Quick review of [arXiv:2206.01862v1](https://arxiv.org/abs/2206.01862) pre-print paper.
+Quick review of [arXiv:2206.01862v1](https://arxiv.org/abs/2206.01862) pre-print paper together with other related papers and datasets.
 
 <p align="right">
   Also available at: <a href="https://carlosvega.github.io/DebunkMonkeypoxML/">https://carlosvega.github.io/DebunkMonkeypoxML/</a>
