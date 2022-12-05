@@ -152,11 +152,11 @@ The resulting model can classify the elements between the two folders in both "s
 
 Fortunately, the authors' paper has not been published in any scientific journal or conference proceedings yet. However, it is now common to cite and reference papers published in publication repositories, pre-print servers and other non-reviewed publication services. It is important to remain skeptical and careful with non-reviewed publications (and even with peer-reviewed publications). Their dataset remains open and available for the potential misuse of the research community.
 
-### Impact of the authors' work
+## Impact of the authors' work
 
 The paper at issue has more than 1000 reads in ResearchGate (See [1](https://www.researchgate.net/publication/361134895_Monkeypox_Image_Data_collection), [2](https://www.researchgate.net/publication/361135721_Image_Data_collection_and_implementation_of_deep_learning-based_model_in_detecting_Monkeypox_disease_using_modified_VGG16)) and several recommendations. The little abstract about the dataset has a similar amount of reads and recommendations. The problem of poor science is that it can reach many people and serve as an example. Limitations and risks of the methods employed are not thoroughly discussed.
 
-## Precedents
+### Precedents
 
 A similar [repository](https://github.com/ieee8023/covid-chestxray-dataset) created by Dr Joseph Cohen (though with better quality) was built to gather images of X-Ray scans of COVID-19 patients. This repository suffered from several issues and let to ML solutions that were critically evaluated in some publications. The image below presents an approach similar to the one followed in our experiment that showcased the weaknesses of several ML solutions developed with X-ray scans of COVID-19 patients.
 
@@ -169,7 +169,7 @@ The authors take the example of Dr Joseph Cohen and the Covid-19 image data coll
 
 Still, the project of Dr Cohen was approved by an ethics committee, unlike the repository presented by researchers from the University of Oklahoma. Dr Cohen also provided a [research protocol](https://docs.google.com/document/d/14b7cou98YhYcJ2jwOKznChtn5y6-mi9bgjeFv2DxOt0/edit) for the collection of the images, extracting images from publications or submissions from physicians and researchers. It would be advisable to have a similar protocol in potential datasets of monkeypox images.
 
-# Similar works
+### Similar works
 
 A number of similar works can be found following the same approach. For instance, the BiorXiv preprint "[A Web-scraped Skin Image Database of Monkeypox, Chickenpox, Smallpox, Cowpox, and Measles](https://doi.org/10.1101/2022.08.01.502199)". In this case, one of the authors is affiliated with Boston Children's Hospital, Harvard Medical School. This made me wonder whether the diagnosis relevance of the images was validated by medical doctors? After further enquiries, this author clarified that he was personally helping some of the other authors and that they mistakenly included his affiliation on the pre-print manuscript without his consent.
 
@@ -177,7 +177,7 @@ The authors published a Kaggle dataset. The dataset has been taken down after co
 
 It is also odd to find that most of the cited examples (7 references out of 18) are from the second author. 
 
-## Issues
+#### Issues
 
 Again, this paper shares similar issues such as:
 
@@ -187,3 +187,10 @@ Again, this paper shares similar issues such as:
 - Last, the paper claims that "An ML or DL model, trained on our dataset, can help in the clinical diagnosis of Monkeypox.”. However, proofs on these regards for the given dataset are not provided. 
 
 ![second paper example](./figs/second_paper.png)
+
+### Reaching peer-reviewed journals
+
+In October 2022, Springer Journal of Medical Systems published the article "Monkeypox virus detection using pre-trained deep learning-based approaches" which employs the aforementioned dataset, stating that "More recently, Ahsan et al. [19] collected the images of Monkeypox, Chickenpox, Measles and Normal categories using web mining techniques and verified by the experts."
+
+> Sitaula, C., & Shahi, T. B. (2022). Monkeypox virus detection using pre-trained deep learning-based approaches. Journal of Medical Systems, 46(11), 1-9. https://doi.org/10.1007/s10916-022-01868-2
+
