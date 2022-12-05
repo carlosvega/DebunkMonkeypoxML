@@ -191,7 +191,7 @@ Again, this paper shares similar issues such as:
 
 ## Reaching peer-reviewed journals
 
-In October 2022, Springer Journal of Medical Systems published the article "Monkeypox virus detection using pre-trained deep learning-based approaches" which employs the aforementioned dataset, stating that "More recently, Ahsan et al. [19] collected the images of Monkeypox, Chickenpox, Measles and Normal categories using web mining techniques and verified by the experts.". There is no proof of any verification by experts of this web-scrapped dataset. The authors also state that "These encouraging results, which outperform the state-of-the-art methods, suggest that the proposed approach is applicable to health practitioners for mass screening.". However they have not validated the performance of their solutions in real settings.
+In October 2022, Springer Journal of Medical Systems published the article "Monkeypox virus detection using pre-trained deep learning-based approaches" which employs the aforementioned dataset, stating that "More recently, Ahsan et al. [19] collected the images of Monkeypox, Chickenpox, Measles and Normal categories using web mining techniques and verified by the experts". There is no proof of any verification by experts of this web-scrapped dataset. The authors also state that "These encouraging results, which outperform the state-of-the-art methods, suggest that the proposed approach is applicable to health practitioners for mass screening". However they have not validated the performance of their solutions in real settings.
 
 > Sitaula, C., & Shahi, T. B. (2022). Monkeypox virus detection using pre-trained deep learning-based approaches. Journal of Medical Systems, 46(11), 1-9. https://doi.org/10.1007/s10916-022-01868-2
 
