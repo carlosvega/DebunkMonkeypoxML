@@ -6,15 +6,15 @@ Quick review of [arXiv:2206.01862v1](https://arxiv.org/abs/2206.01862) pre-print
   Also available at: <a href="https://carlosvega.github.io/DebunkMonkeypoxML/">https://carlosvega.github.io/DebunkMonkeypoxML/</a>
 </p>
 
-# Motivation
+# Abstract
 
 During the COVID-19 pandemic, several researchers rushed to develop solutions for the diagnosis of COVID-19 by employing X-Ray images. 
 The solutions and datasets developed during the initial stages of the pandemic broke all the rules and guidelines regarding ethical data science and proper scientific methodology.
 Months later, several works were published criticizing and highlighting the pitfalls and mistakes committed during the pandemic.
 
-Works such as:
-- https://www.nature.com/articles/s42256-021-00307-0
-- https://www.sciencedirect.com/science/article/pii/S136184152100270X
+Example works include:
+- [Roberts, M., Driggs, D., Thorpe, M., Gilbey, J., Yeung, M., Ursprung, S., ... & Schönlieb, C. B. (2021). Common pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans. Nature Machine Intelligence, 3(3), 199-217.](https://www.nature.com/articles/s42256-021-00307-0)
+- [Santa Cruz, B. G., Bossa, M. N., Sölter, J., & Husch, A. D. (2021). Public covid-19 x-ray datasets and their impact on model bias–a systematic review of a significant problem. Medical image analysis, 74, 102225.](https://www.sciencedirect.com/science/article/pii/S136184152100270X)
 
 With the raise of cases of monkeypox, several researchers were afraid that the same mistakes would be made again.
 One of the first publications available in Google Scholar and arXiv includes the paper reviewed in this repository. 
@@ -22,7 +22,9 @@ Published in arXiv under the identifier [arXiv:2206.01862v1](https://arxiv.org/a
 
 ![first paper example](./figs/first_paper.png)
 
-# Summary
+In the remaining of this document I present a methodological review showing the risks and mispractices put into practice in the aforementioned pre-print. I provide an experiment proposal as a proof of the points I try to make during this small review. Finally, I describe the impact of this pre-print, which has recently affected peer-reviewed publications.
+
+# 1 Introduction
 
 The pre-print paper published in arXiv aims to identify Monkeypox patients with an accuracy of ~97%. The motivation of the paper is clear. To diagnose monkeypox employing images. However, there are several concerns regarding whether the provided dataset and the ML solution help to achieve this goal. 
 
@@ -46,7 +48,7 @@ Just in case the versions of the paper and repository change or further versions
 - The version of the paper was [the following (2206.01862v1)](https://arxiv.org/abs/2206.01862v1). 
 - The version of the dataset abstract was [the following (2206.01774v1)](https://arxiv.org/abs/2206.01774v1). 
 
-# Methodological issues
+# 2 Methodological issues
 
 The pre-print presents a number of methodological issues.
 
@@ -109,7 +111,7 @@ The authors acknowledge the class imbalance but do not re-balance the dataset in
 
 The authors do not provide any external validation. Their valid set consists of a split of images from the same dataset, which has the same generative process. A tool aimed to conduct clinical diagnosis should be thoroughly evaluated against different external datasets to increase the confidence on the model. Otherwise, chances are, we are just building a classifier to fit a dataset.
 
-# Review
+# 3 Review
 
 **Disclaimer**: This review purposely avoids fixing the class imbalance issues to resemble the original work.
 
@@ -152,7 +154,7 @@ The resulting model can classify the elements between the two folders in both "s
 
 Fortunately, the authors' paper has not been published in any scientific journal or conference proceedings yet. However, it is now common to cite and reference papers published in publication repositories, pre-print servers and other non-reviewed publication services. It is important to remain skeptical and careful with non-reviewed publications (and even with peer-reviewed publications). Their dataset remains open and available for the potential misuse of the research community.
 
-# Impact of the authors' work
+# 4 Impact of the authors' work
 
 The paper at issue has more than 1000 reads in ResearchGate (See [1](https://www.researchgate.net/publication/361134895_Monkeypox_Image_Data_collection), [2](https://www.researchgate.net/publication/361135721_Image_Data_collection_and_implementation_of_deep_learning-based_model_in_detecting_Monkeypox_disease_using_modified_VGG16)) and several recommendations. The little abstract about the dataset has a similar amount of reads and recommendations. The problem of poor science is that it can reach many people and serve as an example. Limitations and risks of the methods employed are not thoroughly discussed.
 
