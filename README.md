@@ -53,8 +53,8 @@ Just in case the versions of the paper and repository change or further versions
 The pre-print presents a number of methodological issues.
 
 - The authors did not share the code but shared enough details to somewhat replicate the results. 
-- The authors did share the [dataset employed](https://github.com/mahsan2/Monkeypox-dataset-2022) which available in [GitHub](https://github.com/mahsan2/Monkeypox-dataset-2022).
-- The authors provide a poorly collected dataset (from Google) with samples from Monkeypox, Chickenpox, Measles and Normal.
+- The authors did share the [dataset employed](https://github.com/mahsan2/Monkeypox-dataset-2022) which is available in [GitHub](https://github.com/mahsan2/Monkeypox-dataset-2022).
+- The authors provided a poorly collected dataset (from Google) with samples from Monkeypox, Chickenpox, Measles and Normal.
 - The images provided have not been reviewed or curated by medical experts on the area.
 - Class imbalance and data augmentation seem not properly handled.
 
