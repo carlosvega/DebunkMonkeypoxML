@@ -150,7 +150,7 @@ data = DataBlock(
 )
 dls = data.dataloaders(path_data, batch_size=16)
 #train
-dls.train.show_batch(max_n=8, nrows=2)
+dls.train.show_batch(max_n=8, nrows=2) #this shows a batch of images
 model = cnn_learner(dls, vgg16_bn, metrics=error_rate, lr=0.001)
 model.fine_tune(70, cbs=[ShowGraphCallback()]) #this produces the chart
 #confusion matrix
