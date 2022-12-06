@@ -72,9 +72,7 @@ Still, the authors, which have published other research works before, state:
 
 >"We hope our publicly available dataset will play an important role and provide the opportunity to the ML researcher who cannot develop an AI-based model and conduct the experiment due to data scarcity."
 
-![chickenpox example 1](./figs/chicken12.jpg)
-
-![chickenpox example 2](./figs/chicken13.jpg)
+![chickenpox examples](./figs/examples-getty.jpg)
 
 The article states that the model's predictions were cross-checked by doctors. However, the authors did not describe the process. Was this a double-blinded process? How was this assessed? How could the images collected from the internet validated? This is an important part of the paper that is completely missed. Since this is a pre-print, we may expect future versions to include further details.
 
