@@ -128,6 +128,38 @@ Given that this is a quick review, we employed FastAI v2, using a pre-trained VG
 - Jupyter Notebook for study one [can be found here](https://github.com/carlosvega/DebunkMonkeypoxML/blob/main/monkeypox-study-one.ipynb)
 - Jupyter Notebook for study two [can be found here](https://github.com/carlosvega/DebunkMonkeypoxML/blob/main/monkeypox-study-two.ipynb)
 
+### Code employed for study one
+
+Code employed for for study one. See the [Jupyter Notebook](https://github.com/carlosvega/DebunkMonkeypoxML/blob/main/monkeypox-study-one.ipynb) for the output and further details.
+
+```python
+from fastai.vision.all import *
+from fastai.vision.models import vgg16_bn
+import glob
+torch.cuda.is_available() #check that is true
+path_data = 'study-one-data' #adapt the path appropiately
+len(glob.glob1(path_data+'/monkeypox',"*.jpg")), len(glob.glob1(path_data+'/chickenpox',"*.jpg"))
+#data block
+data = DataBlock(
+    blocks=(ImageBlock, CategoryBlock),
+    get_items=get_image_files,
+    splitter=RandomSplitter(valid_pct=0.2, seed=39),
+    get_y=parent_label,
+    item_tfms=[Resize(128, method='squish')], 
+    batch_tfms=aug_transforms(mult=1, max_rotate = 45, max_zoom=1.02)
+)
+dls = data.dataloaders(path_data, batch_size=16)
+#train
+dls.train.show_batch(max_n=8, nrows=2)
+model = cnn_learner(dls, vgg16_bn, metrics=error_rate, lr=0.001)
+model.fine_tune(70, cbs=[ShowGraphCallback()]) #this produces the chart
+#confusion matrix
+interp = ClassificationInterpretation.from_learner(model)
+interp.plot_confusion_matrix()
+#print classification report
+interp.print_classification_report()
+```
+
 ### Versions of employed software
 
 - fastai 2.7.8
