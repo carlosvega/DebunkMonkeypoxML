@@ -187,7 +187,7 @@ Fortunately, the authors' paper has not been published in any scientific journal
 
 # 4. Impact of the authors' work
 
-The paper at issue has more than 1000 reads in ResearchGate (See [1](https://www.researchgate.net/publication/361134895_Monkeypox_Image_Data_collection), [2](https://www.researchgate.net/publication/361135721_Image_Data_collection_and_implementation_of_deep_learning-based_model_in_detecting_Monkeypox_disease_using_modified_VGG16)) and several recommendations. The little abstract about the dataset has a similar amount of reads and recommendations. The problem of poor science is that it can reach many people and serve as an example. Limitations and risks of the methods employed are not thoroughly discussed.
+The initial two papers (the proof of concept and the dataset abstract) have more than 4500 reads in ResearchGate combined (See [1](https://www.researchgate.net/publication/361134895_Monkeypox_Image_Data_collection), [2](https://www.researchgate.net/publication/361135721_Image_Data_collection_and_implementation_of_deep_learning-based_model_in_detecting_Monkeypox_disease_using_modified_VGG16)) and several recommendations. The problem of poor science is that it can reach many people and serve as an example. Limitations and risks of the methods employed are not thoroughly discussed. 
 
 ## Precedents
 
@@ -204,7 +204,7 @@ Still, the project of Dr Cohen was approved by an ethics committee, unlike the r
 
 ## Similar works
 
-A number of similar works can be found following the same approach. 
+A number of similar works can be found following the same approaches of the initial works. 
 
 For instance, in August 2022 the BiorXiv preprint "[A Web-scraped Skin Image Database of Monkeypox, Chickenpox, Smallpox, Cowpox, and Measles](https://doi.org/10.1101/2022.08.01.502199)". In this case, one of the authors is affiliated with Boston Children's Hospital, Harvard Medical School. This made me wonder whether the diagnosis relevance of the images was validated by medical doctors? After further enquiries, this author clarified that he was personally helping some of the other authors and that they mistakenly included his affiliation on the pre-print manuscript without his consent.
 
