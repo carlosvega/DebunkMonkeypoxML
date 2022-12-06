@@ -204,11 +204,17 @@ Still, the project of Dr Cohen was approved by an ethics committee, unlike the r
 
 ## Similar works
 
-A number of similar works can be found following the same approach. For instance, the BiorXiv preprint "[A Web-scraped Skin Image Database of Monkeypox, Chickenpox, Smallpox, Cowpox, and Measles](https://doi.org/10.1101/2022.08.01.502199)". In this case, one of the authors is affiliated with Boston Children's Hospital, Harvard Medical School. This made me wonder whether the diagnosis relevance of the images was validated by medical doctors? After further enquiries, this author clarified that he was personally helping some of the other authors and that they mistakenly included his affiliation on the pre-print manuscript without his consent.
+A number of similar works can be found following the same approach. 
+
+For instance, in August 2022 the BiorXiv preprint "[A Web-scraped Skin Image Database of Monkeypox, Chickenpox, Smallpox, Cowpox, and Measles](https://doi.org/10.1101/2022.08.01.502199)". In this case, one of the authors is affiliated with Boston Children's Hospital, Harvard Medical School. This made me wonder whether the diagnosis relevance of the images was validated by medical doctors? After further enquiries, this author clarified that he was personally helping some of the other authors and that they mistakenly included his affiliation on the pre-print manuscript without his consent.
 
 The authors published a Kaggle dataset. The dataset was taken down after contacting the authors with further interest on the validity of their dataset. https://www.kaggle.com/datasets/arafathussain/monkeypox-skin-image-dataset-2022
 
 It is also odd to find that most of the cited examples (7 references out of 18) are from the second author. 
+
+In November 2022, another group of authors from United International University published a pre-print employing the same kind of datasets and approaches. Similar works are spreading in the form of pre-prints, increasing the citations and popularity of the initial works.
+
+![second paper example](./figs/more-pubs.jpg)
 
 ### Issues
 
@@ -223,7 +229,8 @@ Again, this paper shares similar issues such as:
 
 ## Reaching peer-reviewed journals
 
-In October 2022, Springer Journal of Medical Systems published the article "Monkeypox virus detection using pre-trained deep learning-based approaches" which employs the aforementioned dataset, stating that "More recently, Ahsan et al. [19] collected the images of Monkeypox, Chickenpox, Measles and Normal categories using web mining techniques and verified by the experts". There is no proof of any verification by experts of this web-scrapped dataset. The authors also state that "These encouraging results, which outperform the state-of-the-art methods, suggest that the proposed approach is applicable to health practitioners for mass screening". However they have not validated the performance of their solutions in real settings.
+In October 2022, Springer Journal of Medical Systems published the article "[Monkeypox virus detection using pre-trained deep learning-based approaches](https://doi.org/10.1007/s10916-022-01868-2)" which employs the aforementioned dataset, stating that "More recently, Ahsan et al. [19] collected the images of Monkeypox, Chickenpox, Measles and Normal categories using web mining techniques and verified by the experts". There is no proof of any verification by experts of this web-scrapped dataset. The authors also state that "These encouraging results, which outperform the state-of-the-art methods, suggest that the proposed approach is applicable to health practitioners for mass screening". However they have not validated the performance of their solutions in real settings. By December 2022 the Springer paper already has 5 citations.
 
 > Sitaula, C., & Shahi, T. B. (2022). Monkeypox virus detection using pre-trained deep learning-based approaches. Journal of Medical Systems, 46(11), 1-9. https://doi.org/10.1007/s10916-022-01868-2
 
+![second paper example](./figs/springer.png)
