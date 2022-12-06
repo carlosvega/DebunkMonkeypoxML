@@ -212,12 +212,6 @@ The authors published a Kaggle dataset. The dataset was taken down after contact
 
 It is also odd to find that most of the cited examples (7 references out of 18) are from the second author. 
 
-In November 2022, another group of authors from United International University published a pre-print employing the same kind of datasets and approaches. Similar works are spreading in the form of pre-prints, increasing the citations and popularity of the initial works.
-
-![second paper example](./figs/more-pubs.jpg)
-
-### Issues
-
 Again, this paper shares similar issues such as:
 
 - Risk of developing biased solutions. 
@@ -226,6 +220,10 @@ Again, this paper shares similar issues such as:
 - Last, the paper claims that "An ML or DL model, trained on our dataset, can help in the clinical diagnosis of Monkeypox.”. However, proofs on these regards for the given dataset are not provided. 
 
 ![second paper example](./figs/second_paper.png)
+
+In November 2022, another group of authors from United International University published a pre-print employing the same kind of datasets and approaches. Similar works are spreading in the form of pre-prints, increasing the citations and popularity of the initial works.
+
+![second paper example](./figs/more-pubs.jpg)
 
 ## Reaching peer-reviewed journals
 
