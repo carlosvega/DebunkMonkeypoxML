@@ -82,14 +82,14 @@ The paper mentions that the images were collected using google’s "free to use 
 
 An example of an image used in the dataset: https://www.gettyimages.com/detail/news-photo/chickenpox-4-year-old-child-1st-day-news-photo/179798100 . Below I include the meaning of "Commercial or other licenses" by Google and the licensing statements from some image repositories.
 
-**Regardless of the licensing issues, images from stock repositories are not a reliable source of medically validated images. Specially if the work seeks to diagnose monkeypox employing such images.**
-
-
 > Google: Commercial or other licenses: These images have non-Creative Commons licenses and can be from either sites available at no charge or commercial sites that require payment. https://support.google.com/websearch/answer/29508?
 
 > Dreamstime: Conditional upon your compliance with this Agreement, Dreamstime grants you a limited license to download Watermarked Media solely for evaluating/comping whether you wish to purchase a license to the Non-Watermarked Media according to the Standard Terms and Conditions applicable to your use. You may not use a Watermarked Media in any final materials distributed within your company or any materials distributed outside your company or to the public or in any online or other electronic distribution system. https://www.dreamstime.com/terms#using
 
 > Getty Images: Using images for free. The images on Getty Images are intended for use in commercial and editorial projects. This means you need to buy a license to use the image in most projects, including personal use. You can use an image without paying for a license with our Embed feature, which lets you use over 70 million photos on any non-commercial website or blog (if you're using it to sell a product, raise money or promote or endorse something, Embed isn't for you). Just do a search, then go to Filters to turn on the Embeddable images filter on the search results page. https://www.gettyimages.com/faq/working-files
+
+⚠️ **Regardless of the licensing issues, images from stock repositories are not a reliable source of medically validated images. Specially if the work seeks to diagnose monkeypox employing such images.**
+
 
 ## Risk of bias and method issues
 
