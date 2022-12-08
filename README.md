@@ -130,7 +130,7 @@ Given that this is a quick review, we employed FastAI v2, using a pre-trained VG
 
 ### Code employed for study one
 
-Code employed for for study one. See the [Jupyter Notebook](https://github.com/carlosvega/DebunkMonkeypoxML/blob/main/monkeypox-study-one.ipynb) for the output and further details.
+Code employed to replicate study one with the 'blided' version of the dataset. See the [Jupyter Notebook](https://github.com/carlosvega/DebunkMonkeypoxML/blob/main/monkeypox-study-one.ipynb) for the output and further details.
 
 ```python
 from fastai.vision.all import *
