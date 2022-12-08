@@ -19,12 +19,12 @@ Example works include:
 - [Santa Cruz, B. G., Bossa, M. N., Sölter, J., & Husch, A. D. (2021). Public covid-19 x-ray datasets and their impact on model bias–a systematic review of a significant problem. Medical image analysis, 74, 102225.](https://www.sciencedirect.com/science/article/pii/S136184152100270X)
 
 With the raise of cases of monkeypox, several researchers were afraid that the same mistakes would be made again.
-One of the first publications available in Google Scholar and arXiv includes the paper reviewed in this repository. 
+One of the first examples available in Google Scholar and arXiv includes the paper reviewed in this repository. 
 Published in arXiv under the identifier [arXiv:2206.01862v1](https://arxiv.org/abs/2206.01862) in June 2022.
 
 ![first paper example](./figs/first_paper.png)
 
-In the remaining of this document I present a methodological review showing the risks and mispractices put into practice in the aforementioned pre-print. I provide an experiment proposal as a proof of the points I try to make during this small review. Finally, I describe the impact of this pre-print, which has recently affected peer-reviewed publications.
+In the remaining of this document I present a methodological review showing the risks and malpractices put into practice in the aforementioned pre-print. I provide an experiment proposal as a proof of the points I try to make during this small review. Finally, I describe the impact of this pre-print, which has recently affected peer-reviewed publications.
 
 # 1. Introduction
 
