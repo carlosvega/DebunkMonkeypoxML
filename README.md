@@ -1,5 +1,7 @@
 # Review of Monkeypox Machine Learning datasets and papers
 
+Update 2023: [An updated version of this work is now available in the Journal of Medical Systems](https://doi.org/10.1007/s10916-023-01928-1): **[Analysis: Flawed Datasets of Monkeypox Skin Images](https://doi.org/10.1007/s10916-023-01928-1)**.
+
 Quick review of [arXiv:2206.01862v1](https://arxiv.org/abs/2206.01862) pre-print paper together with other related papers and datasets.
 
 <p align="right">
