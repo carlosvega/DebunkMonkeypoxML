@@ -5,7 +5,7 @@ Update 2023: [An updated version of this work is now available in the Journal of
 Quick review of [arXiv:2206.01862v1](https://arxiv.org/abs/2206.01862) pre-print paper together with other related papers and datasets.
 
 <p align="right">
-  Also available at: <a href="https://carlosvega.github.io/DebunkMonkeypoxML/">https://carlosvega.github.io/DebunkMonkeypoxML/</a>
+  Also available at: <a href="https://monkeypox.cvega.es">https://monkeypox.cvega.es</a>
 </p>
 
 The following timeline presents an overview of the publication timeline of the original paper and dataset and how it has evolved. Of course, this analysis is not exhaustive and other works or publications may refer to the initial dataset and ML solution. **In short, publications stated that healthcare settings can benefit from Machine Learning solutions built upon a web-scraped dataset consisting of google images with no medical relevance or expert review.** Several publications, including peer-reviewed articles, state that their solutions can differentiate monkeypox from measles, chickenpox and other diseases. However, none of the publications conducted external validation or employed real data, i.e., medically validated images.
